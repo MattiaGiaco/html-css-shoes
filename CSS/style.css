@@ -36,13 +36,6 @@ a{
   line-height: 100%;
 }
 
-.shoes-2::before{
-  content: '';
-  display: block;
-  height: 52px;
-  margin: -52px 0 0;
-}
-
 .box{
   position: relative;
   background-size: cover;
