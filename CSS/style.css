@@ -12,6 +12,37 @@ html{
   font-family: 'Rubik Mono One', sans-serif;
 }
 
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 30;
+  text-align: right;
+}
+
+li{
+  display: inline-block;
+  background-color: ivory;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+a{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 8px 10px;
+  line-height: 100%;
+}
+
+.shoes-2::before{
+  content: '';
+  display: block;
+  height: 52px;
+  margin: -52px 0 0;
+}
+
 .box{
   position: relative;
   background-size: cover;
@@ -40,6 +71,8 @@ html{
 
 
 h2{
+  width: 70%;
+  margin: 0 auto;
   text-align: center;
   color: yellow;
   font-size: 50px;
